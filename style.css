@@ -5,21 +5,105 @@ header nav ul li :first-child{
     text-decoration: none;
     padding-left: 1em;
     padding-right: 1em;
-}
-
-header {
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 header ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 0.5em;
 }
 
-h1,p {
-    padding-top:0.5em;
+header, main {
+    background-image: url(img/achtergrond.svg);
+}
+
+.logo {
+    width:100%;
+    height: 120px;
+    border-bottom-left-radius: 30%;
+}
+
+nav {
+    background-color:#ffaf77;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10%;
+}
+
+h1, h2, p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+p {
+    border-radius: 10px;
+    background-color:#ffaf77;
+    margin-left: 0.em;
+    padding: 0.5em;1
+}
+
+h1 {
+    margin: 0.25em;
+    padding:0em;
+    display: inline;
+    background-color: #ffaf77;
+    border-radius: 10px;
+}
+
+h2 {
+    padding:0.2em;
+    border-radius: 10px;
+    background-color: #ffaf77;
+}
+
+.leesmeer {
+    color: #0d5f2e;
+    text-decoration: underline;
+}
+
+.alineas {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.alineas-tekst {
+    padding-right: 5vw;
+    padding-left: 7vw;
+    padding-top: 5vh;
+}
+
+.afbeeldingen {
+    width: 40vw;
+    height:50%;
+    background-color: #FFCCB1;
+    display: flex;
+    margin-top:5em;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 0.5em;
+}
+
+.illustraties {
+    width: 360px;
+}
+
+.svg-container {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.button-diy {
+    border-radius: 10%;
+    width: 75vw;
+    margin-top: 1em;
+}
+
+.testimg {
+    border-radius: 15%;
+    margin:0.5em
 }
 
 * {
@@ -31,7 +115,6 @@ h1,p {
     position: relative;
     width:100%;
     overflow: hidden;
-    padding-top:1em;
 }
 
 .images {
@@ -59,13 +142,13 @@ h1,p {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    border: solid #9c3b3b 3px;
+    border: solid black 3px;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 5px;
 }
 
-.dots label:hover {background: #3d0f0f;}
+.dots label:hover {background: #ffaf77;}
 
 #img1:checked ~ .m1 {
     margin-left: 0;
